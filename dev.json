@@ -1,0 +1,22 @@
+{
+  "database": {
+    "type":"mysql",
+    "host":"192.168.103.212",
+    "port":3306,
+    "user":"root",
+    "password":"test",
+    "databaseName":"wzq",
+    "MaxIdleConns":10,
+    "MaxOpenConns":10,
+    "IsDevelopment":true
+  },
+  "redis": {
+    "host":"192.168.9.205",
+    "Port":6379,
+    "Password":"admin",
+    "db": 0
+  },
+  "web": {
+    "port": 8002
+  }
+}
